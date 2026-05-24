@@ -1,0 +1,90 @@
+# ============================================================
+# Privacy & Security
+# ============================================================
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+config.secret.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ============================================================
+# Jupyter Notebook Artifacts
+# ============================================================
+
+# Notebook checkpoints (auto-generated, not needed in repo)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ============================================================
+# OS & System Files
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# IDE & Editor Files
+# ============================================================
+
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Logs & Temp Files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ============================================================
+# Data Files (add exceptions below if needed)
+# ============================================================
+
+# Uncomment below if you ever add sensitive/private datasets
+# *.csv
+# *.xlsx
+# *.json
